@@ -30,8 +30,12 @@ h1{
     font-size: 40px;
     line-height: 53px;
 }
-nav>ul li{
+nav ul li{
     display: inline;
+    margin-right: 47px;
+}
+nav button{
+    height: 37px;
 }
 /* General tags end */
 
@@ -39,12 +43,17 @@ nav>ul li{
 /* Class tags start */
 .fullscreen{width: 100%;}
 .container{
-    max-width: 1440px;
-    display: flex;
-    justify-content: space-between;}
+    width: 100%; 
+    max-width: 1440px; 
+    margin: auto;}
 .centered{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+.section:first-of-type{
+    height: 707px;
+    background: linear-gradient(to top, #000000B2, #000000B2), url(../img/Section1.png);
+    background-size: contain;
 }
 /* Class tags end */
