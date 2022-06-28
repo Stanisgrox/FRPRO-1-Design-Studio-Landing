@@ -1,0 +1,48 @@
+/* Color palette start */
+.gold{color: #E3B873;}
+.gray{color: #959595;}
+.black{color: #363636;}
+.white{color: #FFF}
+.white30{color:#FFFFFF4D;}
+.white50{background: #FFFFFF80;}
+
+.bg-black{background-color: #131313;}
+.bg-gold{background-color: #E3B873;}
+.bg-transparent{background-color: rgba(0, 0, 0, 0.7);}
+/* Color palette end */
+
+/* Text transforms start */
+.uppercase{text-transform: uppercase;}
+
+.tiny-text{font-size: 11px;}
+.small-text{font-size: 13px}
+.normal-text{font-size: 14px;}
+.average-text{font-size: 18px;}
+.big-text{font-size: 20px;}
+.large-text{font-size: 22px;}
+.largest-text{font-size: 27px;}
+
+/* Text transforms end */
+
+/* General tags stat */
+header{
+    height: 83px;
+}
+h1{
+    font-size: 40px;
+    line-height: 53px;
+}
+nav>ul li{
+    display: inline;
+}
+/* General tags end */
+
+
+/* Class tags start */
+.container{max-width: 1440px;}
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Class tags end */
