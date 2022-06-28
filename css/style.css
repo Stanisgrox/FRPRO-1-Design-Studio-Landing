@@ -21,7 +21,6 @@
 .big-text{font-size: 20px;}
 .large-text{font-size: 22px;}
 .largest-text{font-size: 27px;}
-
 /* Text transforms end */
 
 /* General tags stat */
@@ -45,7 +44,8 @@ nav button{
 .container{
     width: 100%; 
     max-width: 1440px; 
-    margin: auto;}
+    margin: auto;
+}
 .centered{
     display: flex;
     align-items: center;
