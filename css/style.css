@@ -25,9 +25,7 @@
 /* Text transforms end */
 
 /* General tags stat */
-header{
-    height: 83px;
-}
+header{height: 83px;}
 h1{
     font-size: 40px;
     line-height: 53px;
@@ -39,7 +37,11 @@ nav>ul li{
 
 
 /* Class tags start */
-.container{max-width: 1440px;}
+.fullscreen{width: 100%;}
+.container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;}
 .centered{
     display: flex;
     align-items: center;
