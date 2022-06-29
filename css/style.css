@@ -1,3 +1,31 @@
+/* yeseva-one-regular - latin */
+@font-face {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/yeseva-one-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/yeseva-one-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/yeseva-one-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/yeseva-one-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/yeseva-one-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/yeseva-one-v20-latin-regular.svg#YesevaOne') format('svg'); /* Legacy iOS */
+}
+
+/* nunito-sans-regular - latin */
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-sans-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/nunito-sans-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/nunito-sans-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/nunito-sans-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/nunito-sans-v12-latin-regular.svg#NunitoSans') format('svg'); /* Legacy iOS */
+}
+
 /* Color palette start */
 .gold{color: #E3B873;}
 .gray{color: #959595;}
@@ -19,16 +47,23 @@
 .normal-text{font-size: 14px;}
 .average-text{font-size: 18px;}
 .big-text{font-size: 20px;}
-.large-text{font-size: 22px;}
+.large-text{
+    font-size: 22px;
+    line-height: 36px;
+}
 .largest-text{font-size: 27px;}
 /* Text transforms end */
 
 /* General tags stat */
+body{font-family: 'Nunito Sans';}
 header{height: 83px;}
 h1{
+    font-family: 'Yeseva One';
     font-size: 40px;
     line-height: 53px;
+    margin-bottom: 19px;
 }
+
 nav ul li{
     display: inline;
     margin-right: 47px;
