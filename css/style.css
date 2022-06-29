@@ -36,7 +36,7 @@
 
 .bg-black{background-color: #131313;}
 .bg-gold{background-color: #E3B873;}
-.bg-transparent{background-color: rgba(0, 0, 0, 0.7);}
+.bg-transparent{background-color: transparent;}
 /* Color palette end */
 
 /* Text transforms start */
@@ -52,24 +52,33 @@
     line-height: 36px;
 }
 .largest-text{font-size: 27px;}
+.underline{text-decoration-line: underline;}
 /* Text transforms end */
 
 /* General tags stat */
 body{font-family: 'Nunito Sans';}
 header{height: 83px;}
+footer{
+    height: 133px;
+    background: #181818;
+}
 h1{
-    font-family: 'Yeseva One';
     font-size: 40px;
     line-height: 53px;
     margin-bottom: 19px;
+}
+
+h1, h2, h3{
+    font-family: 'Yeseva One';
 }
 
 nav ul li{
     display: inline;
     margin-right: 47px;
 }
-nav button{
-    height: 37px;
+a{
+    text-decoration: none;
+    color: white;
 }
 /* General tags end */
 
@@ -90,5 +99,26 @@ nav button{
     height: 707px;
     background: linear-gradient(to top, #000000B2, #000000B2), url(../img/Section1.png);
     background-size: contain;
+}
+.button-small{
+    height: 37px;
+    padding-left: 13px;
+    padding-right: 13px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 0px;
+    border: none;
+}
+.button-normal{
+    height: 51px;
+    width: 207px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    margin-right: 20px;
+    border: none;
+}
+.button-ghost{
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-top: 41px;
 }
 /* Class tags end */
