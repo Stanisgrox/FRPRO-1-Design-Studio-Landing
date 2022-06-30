@@ -171,10 +171,6 @@ a{
 .section3{
     background: linear-gradient(to top, #FFF 0%, #FFF 70%, #131313 70%, #131313 100%);
 }
-.section3 h3{
-    text-align: center;
-    margin-bottom: 13px;
-}
 .image-divider{text-align: center;}
 .image-divider img{vertical-align: middle;}
 .video{
@@ -197,5 +193,10 @@ a{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 93px;
+}
+.section-caption{
+    width:100%; 
+    text-align: center;
+    margin-bottom: 13px;
 }
 /* Class tags end */
