@@ -56,7 +56,7 @@
 /* Text transforms end */
 
 /* General tags stat */
-body{font-family: 'Nunito Sans';}
+body{font-family: 'Nunito Sans'; background-color: #FFF;}
 header{height: 83px;}
 footer{height: 133px;}
 h1{
@@ -118,15 +118,84 @@ a{
     box-shadow: none;
     margin-top: 41px;
 }
-.section2-wrapper{
-    display: flex;
-    margin-top: 53px;
-    padding-left: 27px;
-    padding-right: 27px;
-}
 
-.section2-wrapper img{
+.section2{
+    padding-top: 105px;
+    padding-bottom: 72px;
+}
+.section2 h2{
+    margin-bottom: 34px;
+    line-height: 37px;
+}
+.section2-menu{
+    width: 100%;
+    display: block;
+    padding-left: 50%;
+}
+.section2-menu ul li{
+    display: inline-block;
+    margin-right: 50px;
+    text-underline-offset: 7px;
+    font-family: 'Yeseva One';
+}
+.section2-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 52px;
+    align-items: start;
+}
+.section2-text p{
+    max-width: 442px;
+    line-height: 27px;
+}
+.section2-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-row: 2;
+}
+.section2-details h3{
+    margin-bottom: 9px;
+}
+.section2-details span{
+    display: block;
+    margin-bottom: 34px;
+    line-height: 21px;
+}
+.section2 img{
     max-width: 679px;
     max-height: 482px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.section3{
+    background: linear-gradient(to top, #FFF 0%, #FFF 70%, #131313 70%, #131313 100%);
+}
+.section3 h3{
+    text-align: center;
+    margin-bottom: 13px;
+}
+.image-divider{text-align: center;}
+.image-divider img{vertical-align: middle;}
+.video{
+    background:  url(../img/video.png);
+    width: 817px;
+    height: 434px;
+    margin: 32px auto 63px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 hr{
+    width: 55px;
+    margin-bottom: 35px;
+}
+.section3 p{
+    line-height: 37px;
+    max-width: 681px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 93px;
 }
 /* Class tags end */
