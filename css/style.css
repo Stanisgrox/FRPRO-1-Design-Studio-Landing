@@ -208,9 +208,23 @@ input, label {
 #name1, #phone1{
     width: 231px;
     margin-right: 50px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.section3 form{
+    margin: auto;
+    max-width: 820px;
+    margin-bottom: 154px;
+}
+.section3-form-row{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 31px;
 }
 .first-checkbox{
-    width: 100%;
     text-align: center;
 }
 .checkbox-label {cursor: pointer;}
@@ -231,8 +245,35 @@ input, label {
 .checkbox:checked + .fake::before{
     opacity: 1;
 }
-
-
+.card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 230px;
+}
+.card{
+    max-width: 392px;
+    width: 35%;
+    height: 610px;
+    margin-top: 31px;
+}
+.card img{
+    width: 100%;
+}
+.card-text{
+    position: relative;
+    z-index: 8;
+    bottom:130px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    padding-left: 34px;
+    padding-top: 25px;
+    padding-bottom: 49px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+.card h4,.card ul li{
+    margin-bottom: 13px;
+}
 .card ul{
     list-style-type: disc;
 }
@@ -244,6 +285,39 @@ input, label {
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    position: relative;
+    z-index: 9;
+    bottom:155px;
+    left: 31px;
+}
+.workorder-container{
+    display: flex;
+}
+.workorder-wrapper{
+    background: url(../img/order_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 100px;
+    padding-left: 250px;
+    width: 50vw;
+    max-width: 720px;
+    position: relative;
+    left: -20px;
+}
+.workorder-step{
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center
+}
+.workorder-step p{
+    line-height: 19px;
+}
+.workorder-step:last-child{
+    margin-bottom: 50px;
+}
+.workorder-container form{
+    margin-top: 100px;
+    padding-top: 28px;
 }
 /* Class tags end */
 /* Media start*/
