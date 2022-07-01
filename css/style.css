@@ -77,6 +77,9 @@ a{
     text-decoration: none;
     color: white;
 }
+label{
+    margin-bottom: 7px;
+}
 /* General tags end */
 
 
@@ -213,6 +216,7 @@ input, label {
     resize: none;
     outline: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    line-height: 23px;
 }
 .section3 form{
     margin: auto;
@@ -318,11 +322,33 @@ input, label {
 .workorder-container form{
     margin-top: 100px;
     padding-top: 28px;
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-bottom: 27px;
+    width: 35.2%;
+    height: 509px;
 }
 .workorder-container form p{
     text-align: center;
     line-height: 26px;
     margin-bottom: 39px;
+}
+#name2, #phone2, #email2{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    line-height: 23px;
+}
+.workorder-input-wrapper{margin-bottom: 48px;}
+.workorder-input-wrapper label{opacity: 50%;}
+.workorder-input-wrapper input::placeholder{color: #FFF;}
+.workorder-input-wrapper:last-child{margin-bottom: 16px;}
+.workorder-container form button{
+    margin-top: 40px;
+    float: right;
 }
 /* Class tags end */
 /* Media start*/
@@ -345,6 +371,7 @@ input, label {
         margin-top: 26px;
         width: 100%;
     }
+    .workorder-container{display: none;}
 }
 
 @media (max-width: 768px) {
