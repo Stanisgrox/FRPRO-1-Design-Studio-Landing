@@ -299,18 +299,18 @@ input, label {
     background-size: contain;
     padding-top: 100px;
     padding-left: 250px;
-    width: 50vw;
-    max-width: 720px;
+    width: 30vw;
     position: relative;
-    left: -20px;
+    left: -5vw;
 }
 .workorder-step{
-    margin-bottom: 90px;
+    margin-bottom: 80px;
     display: flex;
     align-items: center
 }
 .workorder-step p{
     line-height: 19px;
+    max-width: 370px;
 }
 .workorder-step:last-child{
     margin-bottom: 50px;
@@ -318,6 +318,11 @@ input, label {
 .workorder-container form{
     margin-top: 100px;
     padding-top: 28px;
+}
+.workorder-container form p{
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 39px;
 }
 /* Class tags end */
 /* Media start*/
