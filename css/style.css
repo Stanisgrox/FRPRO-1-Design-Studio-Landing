@@ -86,6 +86,8 @@ a{
     width: 100%; 
     max-width: 1440px; 
     margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 .centered{
     display: flex;
@@ -95,7 +97,8 @@ a{
 .section:first-of-type{
     height: 707px;
     background: linear-gradient(to top, #000000B2, #000000B2), url(../img/Section1.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .button-small{
     height: 37px;
@@ -206,8 +209,33 @@ input, label {
     width: 231px;
     margin-right: 50px;
 }
+.first-checkbox{
+    width: 100%;
+    text-align: center;
+}
+.checkbox-label {cursor: pointer;}
+.checkbox{display: none;}
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
 
 
+.card ul{
+    list-style-type: disc;
+}
 .card-label{
     width: 228px;
     height: 54px;
@@ -219,7 +247,31 @@ input, label {
 }
 /* Class tags end */
 /* Media start*/
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
+    /* Text size correction */
+    .large-text{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    /* Text size correction */
+    header{height: 40px;}
     nav ul{display: none;}
     nav button{display: none;}
+    .container{padding-left: 5%; padding-right: 5%;}
+    .centered{justify-content: space-around;}
+    .section:first-of-type{
+        height: 476px;
+    }
+    .section:first-of-type button{
+        margin-top: 26px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 23px;
+        line-height: 31px;
+        margin-bottom: 16px;
+    }
 }
