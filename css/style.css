@@ -364,6 +364,32 @@ input, label {
 .section5 .image-divider{
     margin-bottom: 24px;
 }
+.review-caption{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.review-caption img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-right: 8%;
+}
+.review{width: 33%;}
+.review .card-text{
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 31px;
+    padding-bottom: 90px;
+}
+.review .card-label{
+    width: 300px;
+}
+.card-label img{
+    height: 70%;
+}
 /* Class tags end */
 /* Media start*/
 @media (max-width: 1300px) {
