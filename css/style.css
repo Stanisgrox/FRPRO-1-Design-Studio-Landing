@@ -73,6 +73,9 @@ nav ul li{
     display: inline;
     margin-right: 47px;
 }
+nav ul li:last-child{
+    margin-right: 0px;
+}
 a{
     text-decoration: none;
     color: white;
@@ -145,7 +148,7 @@ label{
 }
 .section2-menu ul li{
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 5%;
     text-underline-offset: 7px;
     font-family: 'Yeseva One';
 }
@@ -174,6 +177,7 @@ label{
     line-height: 21px;
 }
 .section2 img{
+    width: 100%;
     max-width: 679px;
     max-height: 482px;
     grid-row-start: 1;
@@ -197,7 +201,7 @@ label{
     width: 55px;
     margin-bottom: 35px;
 }
-.section3 p{
+.paragraph-centered{
     line-height: 37px;
     max-width: 681px;
     text-align: center;
@@ -350,6 +354,16 @@ input, label {
     margin-top: 40px;
     float: right;
 }
+.piggy-bank{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 12%;
+    margin-bottom: 71px;
+}
+.section5 .image-divider{
+    margin-bottom: 24px;
+}
 /* Class tags end */
 /* Media start*/
 @media (max-width: 1300px) {
@@ -379,5 +393,13 @@ input, label {
         font-size: 23px;
         line-height: 31px;
         margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 1470px) {
+    .centered{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 }
