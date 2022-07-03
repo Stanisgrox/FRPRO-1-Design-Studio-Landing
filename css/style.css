@@ -261,7 +261,6 @@ input, label {
 .card{
     max-width: 392px;
     width: 35%;
-    height: 610px;
     margin-top: 31px;
 }
 .card img{
@@ -361,8 +360,27 @@ input, label {
     padding-right: 12%;
     margin-bottom: 71px;
 }
+.section4 {
+    background: url('../img/sec4.png') no-repeat;
+    background-size: cover;
+    padding-top: 137px;
+}
+.section4 ul{
+    max-width: 295px;
+    margin-top: 47px;
+}
+.section4 ul li{
+    margin-bottom: 25px;
+}
+.section4-gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .section5 .image-divider{
     margin-bottom: 24px;
+}
+.section5 .card-wrapper{
+    margin-top: 30px;
 }
 .review-caption{
     display: flex;
@@ -379,16 +397,24 @@ input, label {
 }
 .review{width: 33%;}
 .review .card-text{
-    max-width: 375px;
+    max-width: 380px;
     padding-left: 20px;
     padding-right: 31px;
     padding-bottom: 90px;
+}
+.review .card-text p{
+    line-height: 25px;
 }
 .review .card-label{
     width: 300px;
 }
 .card-label img{
     height: 70%;
+}
+
+.section-filler{
+    height: 355px;
+    background: linear-gradient(to top, #FFFFFFB2, #FFFFFFB2), url(../img/city-bg.svg)
 }
 /* Class tags end */
 /* Media start*/
