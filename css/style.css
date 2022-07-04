@@ -336,7 +336,7 @@ input, label {
     line-height: 26px;
     margin-bottom: 39px;
 }
-#name2, #phone2, #email2{
+#name2, #phone2, #email2, #name3, #phone3, #q3{
     width: 100%;
     border: none;
     background-color: transparent;
@@ -439,6 +439,29 @@ input, label {
     width: 883px;
     margin: auto;
     padding-top: 34px;
+    position: relative;
+    top: -200px;
+}
+.form3-wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 100%;
+    justify-content: space-around;
+    row-gap: 50px;
+    padding-left: 181px;
+    padding-right: 181px;
+    padding-top: 40px;
+}
+.form3-row{
+    display: flex;
+    justify-content: space-between;
+}
+.form3-row div{
+    width: 45%;
+}
+.form3-wrapper button{
+    margin: auto;
+    margin-bottom: 50px;
 }
 .contact-icons{
     margin-top: 47px;
