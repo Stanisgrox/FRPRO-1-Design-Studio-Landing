@@ -417,15 +417,30 @@ input, label {
 }
 .section-filler{
     height: 355px;
-    background: linear-gradient(to top, #FFFFFFE2, #FFFFFFE2), url(../img/city-bg.svg)
+    background: linear-gradient(to top, #FFFFFFE2, #FFFFFFE2), url(../img/city-bg.svg);
 }
 .section6{
-    background: linear-gradient(to top, #000000D2, #000000D2), url(../img/map-bg.png) 
+    background: linear-gradient(to top, #000000D2, #000000D2), url(../img/map-bg.png) no-repeat;
+    background-size: cover;
 }
 .section6 form{
     width: 883px;
     margin: auto;
     padding-top: 34px;
+}
+.contact-icons{
+    margin-top: 27px;
+}
+.contact-icons a{
+    margin-left: 15px;
+}
+.map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 100%;
+    max-width: 1000px;
 }
 /* Class tags end */
 /* Media start*/
