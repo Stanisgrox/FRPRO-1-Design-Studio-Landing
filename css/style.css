@@ -571,8 +571,12 @@ input, label {
     .section3-form-row{
         flex-direction: column;
     }
+    .section3-form-row label{
+        color: #888888;
+    }
     #name1, #phone1{
         width: 80vw;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.9);
     }
     #name1{
         margin-bottom: 63px;
