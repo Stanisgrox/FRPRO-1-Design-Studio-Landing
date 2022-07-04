@@ -383,7 +383,8 @@ input, label {
 }
 .rt{
     position: relative;
-    top:-600px
+    top:-600px;
+    right: -50px;
 }
 .lb{
     position: relative;
@@ -391,7 +392,8 @@ input, label {
 }
 .rb{
     position: relative;
-    top:-550px
+    top:-550px;
+    right: -50px;
 }
 .section5{
     padding-top: 110px;
