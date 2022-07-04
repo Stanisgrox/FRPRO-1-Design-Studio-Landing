@@ -514,7 +514,7 @@ input, label {
         padding-left: 3vw; 
         padding-right: 3vw;}
     .centered{justify-content: space-around;}
-    .workorder-container, .piggy-bank, .section5, .section-filler{display: none;}
+    .workorder-container, .piggy-bank, .section4, .section5, .section-filler{display: none;}
     .section:first-of-type{
         height: 476px;
     }
