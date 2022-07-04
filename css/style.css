@@ -256,7 +256,7 @@ input, label {
 .card-wrapper{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 230px;
+    margin-bottom: 120px;
 }
 .card{
     max-width: 392px;
@@ -376,11 +376,15 @@ input, label {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.section5{
+    padding-top: 110px;
+}
 .section5 .image-divider{
     margin-bottom: 24px;
 }
 .section5 .card-wrapper{
     margin-top: 30px;
+    margin-bottom: 0px;
 }
 .review-caption{
     display: flex;
@@ -411,10 +415,17 @@ input, label {
 .card-label img{
     height: 70%;
 }
-
 .section-filler{
     height: 355px;
-    background: linear-gradient(to top, #FFFFFFB2, #FFFFFFB2), url(../img/city-bg.svg)
+    background: linear-gradient(to top, #FFFFFFE2, #FFFFFFE2), url(../img/city-bg.svg)
+}
+.section6{
+    background: linear-gradient(to top, #000000D2, #000000D2), url(../img/map-bg.png) 
+}
+.section6 form{
+    width: 883px;
+    margin: auto;
+    padding-top: 34px;
 }
 /* Class tags end */
 /* Media start*/
@@ -428,8 +439,12 @@ input, label {
     header{height: 40px;}
     nav ul{display: none;}
     nav button{display: none;}
-    .container{padding-left: 5%; padding-right: 5%;}
+    .container{
+        width: 92vw;
+        padding-left: 3vw; 
+        padding-right: 3vw;}
     .centered{justify-content: space-around;}
+    .workorder-container, .piggy-bank, .section5, .section-filler{display: none;}
     .section:first-of-type{
         height: 476px;
     }
@@ -437,7 +452,59 @@ input, label {
         margin-top: 26px;
         width: 100%;
     }
-    .workorder-container{display: none;}
+    .section2{
+        padding-top: 36px;
+    }
+    .section2-menu{
+        display: none;
+    }
+    .section2-text {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        padding-top: 0px;
+    }
+    .section2-caption {
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .section2-caption p{
+        margin: auto;
+    }
+    .section2 img{
+        grid-row: 2;
+        grid-column: 1;
+        grid-row-start: auto;
+        grid-row-end: auto;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .section2-details {
+        grid-row: 3;
+        grid-column: 1;
+        margin-top: 37px;
+    }
+    .section3{
+        background: #131313;
+        color: white;
+    }
+    .card-wrapper{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .card{
+        margin: auto;
+        width: 90vw;
+        max-width: none;
+    }
+    .card-text{
+        margin-left: 0px;
+    }
+    .card-label{
+        left: 0px;
+    }
 }
 
 @media (max-width: 768px) {
