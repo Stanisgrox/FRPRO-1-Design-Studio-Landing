@@ -358,7 +358,7 @@ input, label {
     align-items: center;
     justify-content: flex-end;
     padding-right: 12%;
-    margin-bottom: 71px;
+    margin-bottom: 242px;
 }
 .section4 {
     background: url('../img/sec4.png') no-repeat;
@@ -375,6 +375,23 @@ input, label {
 .section4-gallery{
     display: grid;
     grid-template-columns: 50% 50%;
+    max-height: 700px;
+}
+.lt{
+    position: relative;
+    top:-240px
+}
+.rt{
+    position: relative;
+    top:-600px
+}
+.lb{
+    position: relative;
+    top:-450px
+}
+.rb{
+    position: relative;
+    top:-550px
 }
 .section5{
     padding-top: 110px;
