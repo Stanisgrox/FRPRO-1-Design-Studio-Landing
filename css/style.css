@@ -382,6 +382,9 @@ input, label {
 .section5 .image-divider{
     margin-bottom: 24px;
 }
+.section5 p{
+    margin-bottom: 10px;
+}
 .section5 .card-wrapper{
     margin-top: 30px;
     margin-bottom: 0px;
@@ -405,15 +408,19 @@ input, label {
     padding-left: 20px;
     padding-right: 31px;
     padding-bottom: 90px;
+    position: initial;
 }
 .review .card-text p{
     line-height: 25px;
 }
 .review .card-label{
     width: 300px;
+    bottom: 30px;
+    justify-content: space-around;
 }
 .card-label img{
     height: 70%;
+    width: auto;
 }
 .section-filler{
     height: 355px;
@@ -423,6 +430,10 @@ input, label {
     background: linear-gradient(to top, #000000D2, #000000D2), url(../img/map-bg.png) no-repeat;
     background-size: cover;
     padding-bottom: 70px;
+}
+.section6 h3{
+    max-width: 560px;
+    margin: auto;
 }
 .section6 form{
     width: 883px;
