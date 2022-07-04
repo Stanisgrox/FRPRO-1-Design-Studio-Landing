@@ -87,6 +87,7 @@ label{
 
 
 /* Class tags start */
+.fake-mobile{display: none;}
 .fullscreen{width: 100%;}
 .container{
     width: 100%; 
@@ -509,12 +510,18 @@ input, label {
     header{height: 40px;}
     nav ul{display: none;}
     nav button{display: none;}
+    .fake-mobile{
+        display: block;
+        margin-left: 10px;
+        margin-right: auto;
+        margin-top: 26px;
+    }
     .container{
         width: 92vw;
         padding-left: 3vw; 
         padding-right: 3vw;}
     .centered{justify-content: space-around;}
-    .workorder-container, .piggy-bank, .section4, .section5, .section-filler{display: none;}
+    .workorder-container, .piggy-bank, .section4, .section5, .section-filler, .fake-dt{display: none;}
     .section:first-of-type{
         height: 476px;
     }
@@ -572,7 +579,15 @@ input, label {
         flex-direction: column;
     }
     .section3-form-row label{
-        color: #888888;
+        color: #ffffff;
+    }
+    .section3-form-row button{
+        width: 90vw;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .section3 form{
+        padding-bottom: 40px;
     }
     #name1, #phone1{
         width: 80vw;
